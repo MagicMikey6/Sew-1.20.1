@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.sew_tab"))
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.CLOTH.get());
-
+                        output.accept(ModItems.NEEDLE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
