@@ -1,7 +1,8 @@
-package net.magicmikey6.sow;
+package net.magicmikey6.sew;
 
 import com.mojang.logging.LogUtils;
-import net.magicmikey6.sow.item.ModItems;
+import net.magicmikey6.sew.item.ModCreativeModeTabs;
+import net.magicmikey6.sew.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -15,13 +16,15 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Sow.MOD_ID)
-public class Sow {
-    public static final String MOD_ID = "sow";
+@Mod(Sew.MOD_ID)
+public class Sew {
+    public static final String MOD_ID = "sew";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Sow() {
+    public Sew() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
