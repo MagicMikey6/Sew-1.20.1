@@ -1,6 +1,7 @@
 package net.magicmikey6.sew;
 
 import com.mojang.logging.LogUtils;
+import net.magicmikey6.sew.block.ModBlocks;
 import net.magicmikey6.sew.item.ModCreativeModeTabs;
 import net.magicmikey6.sew.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,6 +28,7 @@ public class Sew {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

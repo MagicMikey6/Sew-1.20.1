@@ -16,7 +16,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> NEEDLE = ITEMS.register("needle",
-            () -> new Item(new Item.Properties()));
+            () -> new NeedleItem(new Item.Properties().durability(64)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

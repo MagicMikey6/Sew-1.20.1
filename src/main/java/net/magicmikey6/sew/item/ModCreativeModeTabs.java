@@ -1,6 +1,7 @@
 package net.magicmikey6.sew.item;
 
 import net.magicmikey6.sew.Sew;
+import net.magicmikey6.sew.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((displayParameters, output) -> {
                         output.accept(ModItems.CLOTH.get());
                         output.accept(ModItems.NEEDLE.get());
+                        output.accept(ModBlocks.ENRICHED_PLANKS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
