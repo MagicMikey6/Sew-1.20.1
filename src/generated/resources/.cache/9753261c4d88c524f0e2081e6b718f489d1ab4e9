@@ -1,0 +1,11 @@
+// 1.20.1	2024-07-04T14:37:31.0318055	Block States: sew
+b21363cd34e981a3bdec181daba2075b154b4117 assets/sew/blockstates/cotton_crop.json
+c4e2054fa4078147967ad7897fd961c71499b5e9 assets/sew/blockstates/enriched_planks.json
+6a681026b6d546ba7fd56a954e03524edbfe8a2a assets/sew/models/block/cotton_stage0.json
+a54bbd50fc3b3efa53611bd31e5bcf2991735f77 assets/sew/models/block/cotton_stage1.json
+741ddad69d13f7d12ae1c922f852dac4d517cfb0 assets/sew/models/block/cotton_stage2.json
+310bb3fe533f1bafdf3166725a804389c763fe50 assets/sew/models/block/cotton_stage3.json
+750126412ca37f711d9d2f3f4a417b8a0444f680 assets/sew/models/block/cotton_stage4.json
+cf025de2f2ef35b167fb8cfdc0389b623fe15469 assets/sew/models/block/cotton_stage5.json
+4a9f339b065605ab4ee6a24496646b6fda1171d8 assets/sew/models/block/enriched_planks.json
+ba48aabed71ca44c87f661e432c182daeb823f2e assets/sew/models/item/enriched_planks.json

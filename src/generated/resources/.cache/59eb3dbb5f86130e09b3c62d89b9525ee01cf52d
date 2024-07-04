@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-04T14:37:31.0318055	Loot Tables
+ff3ae1ce6186597967ed1db3334e96924b66fe21 data/sew/loot_tables/blocks/basic_sewing_table.json
+9faca23c5c29057f99a3361ce7d5ccea0d64b720 data/sew/loot_tables/blocks/cotton_crop.json
+78d8b5cf150d3c23a1610ff16ecdce0a177835fe data/sew/loot_tables/blocks/enriched_planks.json
