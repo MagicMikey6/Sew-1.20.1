@@ -1,8 +1,12 @@
 {
   "item.sew.cloth": "Cloth",
   "item.sew.needle": "Needle",
+  "item.sew.cotton": "Cotton",
+  "item.sew.cotton_seeds": "Cotton Seeds",
 
   "block.sew.enriched_planks": "Enriched Planks",
+  "block.sew.cotton_crop": "Cotton Crop",
+  "block.sew.basic_sewing_table": "Basic Sewing Table",
 
   "creativetab.sew_tab": "Sew"
 }

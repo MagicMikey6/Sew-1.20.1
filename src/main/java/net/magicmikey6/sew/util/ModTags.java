@@ -19,6 +19,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> NEEDLES = tag("needles");
+        public static final TagKey<Item> COTTON = tag("cotton");
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(Sew.MOD_ID, name));

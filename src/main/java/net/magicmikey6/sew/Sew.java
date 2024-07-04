@@ -2,8 +2,12 @@ package net.magicmikey6.sew;
 
 import com.mojang.logging.LogUtils;
 import net.magicmikey6.sew.block.ModBlocks;
+import net.magicmikey6.sew.block.entity.ModBlockEntities;
 import net.magicmikey6.sew.item.ModCreativeModeTabs;
 import net.magicmikey6.sew.item.ModItems;
+import net.magicmikey6.sew.screen.BasicSewingTableScreen;
+import net.magicmikey6.sew.screen.ModMenuTypes;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +33,9 @@ public class Sew {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -56,7 +63,7 @@ public class Sew {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            MenuScreens.register(ModMenuTypes.BASIC_SEWING_MENU.get(), BasicSewingTableScreen::new);
         }
     }
 }

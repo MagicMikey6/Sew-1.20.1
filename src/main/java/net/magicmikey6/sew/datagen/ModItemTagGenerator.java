@@ -21,5 +21,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(ModTags.Items.NEEDLES)
                 .add(ModItems.NEEDLE.get());
+        this.tag(ModTags.Items.COTTON)
+                .add(ModItems.NEEDLE.get());
     }
 }
