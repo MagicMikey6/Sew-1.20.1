@@ -176,7 +176,8 @@ public class BasicSewingTableBlockEntity extends BlockEntity implements MenuProv
         boolean hasCraftingItem = this.itemHandler.getStackInSlot(INPUT_SLOT2).getItem() == Items.STRING;
         ItemStack result = new ItemStack(ModItems.CLOTH.get());
 
-        return hasCraftingItem && canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem()) && this.itemHandler.getStackInSlot(INPUT_SLOT2).getCount() >= 2;
+        return hasCraftingItem && canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem()) &&
+                this.itemHandler.getStackInSlot(INPUT_SLOT2).getCount() >= 2 && this.itemHandler.getStackInSlot(INPUT_SLOT1).getItem() == ModItems.NEEDLE.get();
     }
 
     private boolean canInsertItemIntoOutputSlot(Item item) {

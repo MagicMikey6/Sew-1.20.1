@@ -1,5 +1,7 @@
-// 1.20.1	2024-07-03T10:54:58.7233699	Recipes
+// 1.20.1	2024-07-04T15:44:48.4238169	Recipes
+7c202454cad8e55242df82f397a70bfef76fbe14 data/sew/advancements/recipes/misc/basic_sewing_table.json
 e167dadfe585fa06459db19ffa1ece4a8b3af5b1 data/sew/advancements/recipes/misc/cloth.json
 543db9f2317497ffded95d0600a4bfc5e36f726f data/sew/advancements/recipes/misc/needle.json
+753999a69eb1134b022bf17df28472a5f901e251 data/sew/recipes/basic_sewing_table.json
 650a9d5bea58378a81a6cea3341f25f2a7a85cbe data/sew/recipes/cloth.json
 3bf60abf791cc63a5db6125d1112c9c1955cd2c1 data/sew/recipes/needle.json
