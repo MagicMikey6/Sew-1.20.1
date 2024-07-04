@@ -29,6 +29,14 @@ public class ModReciperProvider extends RecipeProvider implements IConditionBuil
                 .define('I', Items.IRON_NUGGET)
                 .unlockedBy(getHasName(Items.IRON_NUGGET), has(Items.IRON_NUGGET))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BASIC_SEWING_TABLE.get())
+                .pattern("CCC")
+                .pattern("OOO")
+                .pattern("O O")
+                .define('O', Items.OAK_PLANKS)
+                .define('C', ModItems.CLOTH.get())
+                .unlockedBy(getHasName(ModItems.CLOTH.get()), has(ModItems.CLOTH.get()))
+                .save(pWriter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.CLOTH.get(), 1)
                 .requires(Items.STRING, 2)
                 .requires(ModItems.NEEDLE.get())
