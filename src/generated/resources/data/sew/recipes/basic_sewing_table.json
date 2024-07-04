@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "sew:cloth"
+    },
+    "O": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "OOO",
+    "O O"
+  ],
+  "result": {
+    "item": "sew:basic_sewing_table"
+  },
+  "show_notification": true
+}
